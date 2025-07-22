@@ -1,8 +1,15 @@
 package IronBattle;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
+    private static final Random random = new Random();
+
+    public static int getRandom(int min, int max) {
+        return random.nextInt(max - min + 1) + min;
+    }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -25,7 +32,19 @@ public class Main {
                 sc.nextLine();
             }
         }
-        Character c1 = (choice1 == 2) ? new Wizard(name1) : new Warrior(name1);
+
+        Character c1;
+        if (choice1 == 1) {
+            int hp = getRandom(100, 200);
+            int stamina = getRandom(10, 50);
+            int strength = getRandom(1, 10);
+            c1 = new Warrior(name1, hp, stamina, strength);
+        } else {
+            int hp = getRandom(50, 100);
+            int mana = getRandom(10, 50);
+            int intelligence = getRandom(1, 50);
+            c1 = new Wizard(name1, hp, mana, intelligence);
+        }
 
         System.out.print("Enter name for Character 2: ");
         String name2 = sc.nextLine();
@@ -44,7 +63,19 @@ public class Main {
                 sc.nextLine();
             }
         }
-        Character c2 = (choice2 == 2) ? new Wizard(name2) : new Warrior(name2);
+
+        Character c2;
+        if (choice2 == 1) {
+            int hp = getRandom(100, 200);
+            int stamina = getRandom(10, 50);
+            int strength = getRandom(1, 10);
+            c2 = new Warrior(name2, hp, stamina, strength);
+        } else {
+            int hp = getRandom(50, 100);
+            int mana = getRandom(10, 50);
+            int intelligence = getRandom(1, 50);
+            c2 = new Wizard(name2, hp, mana, intelligence);
+        }
 
         System.out.println("\n--- Initial Stats ---");
         System.out.println("Character 1: " + c1.getStats());

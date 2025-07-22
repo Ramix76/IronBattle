@@ -6,10 +6,10 @@ public class Wizard extends Character implements Attacker {
     private int mana;
     private int intelligence;
 
-    public Wizard(String name) {
-        super(name, getRandom(50, 100));
-        this.mana = getRandom(10, 50);
-        this.intelligence = getRandom(1, 50);
+    public Wizard(String name, int hp, int mana, int intelligence) {
+        super(name, hp);
+        this.mana = mana;
+        this.intelligence = intelligence;
     }
 
     private static int getRandom(int min, int max) {

@@ -6,10 +6,10 @@ public class Warrior extends Character implements Attacker {
     private int stamina;
     private int strength;
 
-    public Warrior(String name) {
-        super(name, getRandom(100, 200));
-        this.stamina = getRandom(10, 50);
-        this.strength = getRandom(1, 10);
+    public Warrior(String name, int hp, int stamina, int strength) {
+        super(name, hp);
+        this.stamina = stamina;
+        this.strength = strength;
     }
 
     private static int getRandom(int min, int max) {
