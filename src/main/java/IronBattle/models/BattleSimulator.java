@@ -1,4 +1,4 @@
-package IronBattle;
+package IronBattle.models;
 
 import java.util.Scanner;
 

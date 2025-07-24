@@ -6,7 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="3586c1d1-8cce-46e4-95ea-40a90190b767" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IronBattle/Attacker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IronBattle/models/Attacker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IronBattle/BattleSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IronBattle/models/BattleSimulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IronBattle/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IronBattle/models/Character.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IronBattle/CharacterImporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IronBattle/models/CharacterImporter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/IronBattle/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IronBattle/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IronBattle/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IronBattle/models/Warrior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IronBattle/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IronBattle/models/Wizard.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

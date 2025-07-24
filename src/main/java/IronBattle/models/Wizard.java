@@ -1,4 +1,4 @@
-package IronBattle;
+package IronBattle.models;
 
 
 public class Wizard extends Character implements Attacker {

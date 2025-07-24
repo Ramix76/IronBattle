@@ -1,9 +1,6 @@
-package IronBattle;
+package IronBattle.models;
 
 import java.util.Random;
-
-import IronBattle.Character;
-import IronBattle.Attacker;
 
 public class Warrior extends Character implements Attacker {
     private int stamina;
